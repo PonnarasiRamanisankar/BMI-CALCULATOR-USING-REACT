@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# BMI Calculator - React App
+ 
+## 🚀 **Live Demo**
+**[View Deployed App](https://ponnarasiramanisankar.github.io/BMI-CALCULATOR-USING-REACT/)** *(Update after deployment)*
+### Form Screen
+ 
+<img width="966" height="967" alt="image" src="https://github.com/user-attachments/assets/92fa5e11-3b36-4264-9e6d-8da6b6e76c91" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📱 **Screenshots**
+<img width="952" height="960" alt="image" src="https://github.com/user-attachments/assets/e48ca712-d924-4b5e-83e3-685f3838f105" />
+<img width="955" height="957" alt="image" src="https://github.com/user-attachments/assets/c4354a47-d68c-4082-b283-9469d567cfa6" />
+<img width="957" height="963" alt="image" src="https://github.com/user-attachments/assets/c51bdbe8-7900-48ac-aedc-aa56f85a8e8c" />
+<img width="957" height="956" alt="image" src="https://github.com/user-attachments/assets/cbdb1d34-bd03-48a9-af27-2e084e154b44" />
 
-## Available Scripts
+### BMI Result - All 4 Levels
+| Normal | Underweight | Overweight | Obese |
+ 
+ 
 
-In the project directory, you can run:
+## ✨ **Features**
+✅ **No Login Required** - Direct form access  
+✅ **Personalized Greeting** - "Hi [Name]! 👋"  
+✅ **All 4 BMI Levels** with **Color Coding**:
+- 🟢 **Normal** (18.5-24.9) - Green
+- 🟡 **Underweight** (<18.5) - Yellow  
+- 🩷 **Overweight** (25-29.9) - Pink
+- 🔴 **Obese** (30+) - Red
 
-### `npm start`
+✅ **Fully Responsive** - Mobile + Desktop  
+✅ **Modern UI** - Gradient backgrounds, animations  
+✅ **Production Ready** - Optimized build included
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 **Test Examples**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Level | Name | Age | Gender | Height | Weight | BMI | Color |
+|-------|------|-----|--------|--------|--------|-----|-------|
+| **Normal** 🟢 | John | 30 | Male | 170cm | 65kg | 22.5 | Green |
+| **Underweight** 🟡 | Sarah | 25 | Female | 170cm | 50kg | 17.3 | Yellow |
+| **Overweight** 🩷 | Mike | 35 | Male | 170cm | 75kg | 26.0 | Pink |
+| **Obese** 🔴 | David | 40 | Male | 170cm | 90kg | 31.1 | Red |
 
-### `npm test`
+ 
+ 
+## 📁 **File Structure**
+ BMI-CALCULATOR-USING-REACT/
+      ├── public/
+      ├── src/
+      │   ├── App.js       # Main BMI Calculator
+      │   ├── App.css      # Modern styling
+      │   └── index.js
+      ├── build/           # Production build
+      ├── package.json
+      └── README.md
+ 
+## 🎨 **Tech Stack**
+       Frontend: React 18 + CSS3
+      Build: Create React App
+      Styling: Custom CSS (No libraries)
+      Responsive: CSS Grid + Flexbox
+ 
+## 📱 **Responsive Design**
+      - ✅ **Desktop** - 2-column form layout
+      - ✅ **Tablet** - Optimized spacing
+      - ✅ **Mobile** - Single column, touch-friendly
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔄 **Workflow**
+       1. Fill Form → Name, Age, Gender, Height(cm), Weight(kg)
+      2. Click "Calculate My BMI"
+      3. See "Hi [Name]! 👋 Your BMI: 22.5 Normal Level"
+      4. Click "Calculate Again" for new calculation
+ 
+## 🛠 **Available Scripts**
+ 
+      npm start      # Development server (localhost:3000)
+      npm run build  # Production build
+      npm test       # Run tests
+ 
 
-### `npm run build`
+## 📄 **License**
+This project is [MIT](LICENSE) licensed - free to use anywhere!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center">
+  <strong>Built with ❤️ using React.js</strong>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
